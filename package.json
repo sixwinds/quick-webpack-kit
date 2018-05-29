@@ -2,17 +2,23 @@
   "name": "quick-webpack",
   "version": "0.0.1",
   "description": "cli for creating webpack config script",
+  "homepage": "https://github.com/sixwinds/quick-webpack",
   "bin": {
     "quick-webpack": "./bin/quickWebpack.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "webpack"
   ],
-  "author": "Bernie Wang",
-  "license": "ISC",
+  "author": {
+    "name": "Bernie Wang",
+    "email": "bernie.wangbj@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sixwinds/quick-webpack.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "commander": "^2.15.1",
     "copy-dir": "^0.3.0",
