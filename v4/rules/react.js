@@ -12,7 +12,7 @@ exports.jsonString =
       loader: 'babel-loader',
       options: {
         presets: [
-          'env',
+          [ 'env', {"modules": false} ],
           'react'
         ]
       }
