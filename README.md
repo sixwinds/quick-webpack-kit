@@ -4,22 +4,22 @@ mkdir my-app
 cd my-app
 npm init
 ...
-npx quick-webpck
+npx quick-webpack-kit
 npm run start
 ```
 Then webpack4 script files with configuration of react rule and postcss(with precss and autoprefixer) rule are created in my-app dir.
 
 ## Synopsis
 
-`npx quick-webpack -v|--version`
+`npx quick-webpack-kit -v|--version`
 
-`npx quick-webpack -u|--use-version '<version-number>'`
+`npx quick-webpack-kit -u|--use-version '<version-number>'`
 
-`npx quick-webpack -j|--js-processors '<processors>'`
+`npx quick-webpack-kit -j|--js-processors '<processors>'`
 
-`npx quick-webpack -s|--style-processors '<processors>'`
+`npx quick-webpack-kit -s|--style-processors '<processors>'`
 
-`npx quick-webpack --no-install`
+`npx quick-webpack-kit --no-install`
 
 ## Usage
 
