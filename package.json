@@ -1,10 +1,10 @@
 {
-  "name": "quick-webpack",
+  "name": "quick-webpack-kit",
   "version": "0.1.0",
   "description": "cli for creating webpack config script",
-  "homepage": "https://github.com/sixwinds/quick-webpack",
+  "homepage": "https://github.com/sixwinds/quick-webpack-kit",
   "bin": {
-    "quick-webpack": "./bin/quickWebpack.js"
+    "quick-webpack-kit": "./bin/quickWebpackKit.js"
   },
   "scripts": {},
   "keywords": [
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sixwinds/quick-webpack.git"
+    "url": "https://github.com/sixwinds/quick-webpack-kit.git"
   },
   "license": "MIT",
   "dependencies": {
