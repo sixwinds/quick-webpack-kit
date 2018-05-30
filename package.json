@@ -1,6 +1,6 @@
 {
   "name": "quick-webpack",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "cli for creating webpack config script",
   "homepage": "https://github.com/sixwinds/quick-webpack",
   "bin": {
