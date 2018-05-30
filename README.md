@@ -27,7 +27,7 @@ Then webpack4 script files with configuration of react rule and postcss(with pre
 
 * `-j, --js-processors <processors>` - Specify javascript processors such as 'react', 'typescript-react', 'vue', currently only support 'react'.
 
-* `-s, --style-processors <processors>` - Specify style(css,image,fonts) processors such as 'postcss', 'sass', 'less', currently only support 'postcss'.
+* `-s, --style-processors <processors>` - Specify style(css,image,fonts) processors such as 'sasslike', 'lesslike', 'cssinjs' currently only support 'sasslike'.
 
 * `--no-install` - Do not install devDependncies package, users can install by themselves.
 

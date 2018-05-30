@@ -1,7 +1,7 @@
-const postcss = require( './postcss' );
+const sasslike = require( './sasslike' );
 const react = require( './react' );
 
 module.exports = {
-  postcss: postcss,
+  sasslike: sasslike,
   react: react
 };

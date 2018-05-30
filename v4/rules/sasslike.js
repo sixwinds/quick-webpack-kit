@@ -3,18 +3,27 @@ exports.devDependencies = [
   'css-loader',
   'postcss-loader',
   'precss',
-  'autoprefixer'
+  'autoprefixer',
+  'file-loader'
 ];
 
 exports.jsonString = 
     `{
       test: /\.css$/,
       use: [
-        'style-loader',
+        MiniCssExtractPlugin.loader,
         {
           loader: 'css-loader',
           options: { importLoaders: 1 } 
         },
         'postcss-loader'
       ]
+    }, {
+      test: /\.(png|svg|jpg|jpeg|gif)$/,
+      loader: 'file-loader',
+      options: {
+        name: '[name].[ext]',
+        publicPath: '/images/',
+        outputPath: 'images/'
+      }
     }`;

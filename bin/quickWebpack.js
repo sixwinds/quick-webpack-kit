@@ -6,7 +6,7 @@ const addRunscriptCommand = require( '../lib/addRunscriptCommand' );
 const installDevDependencies = require( '../lib/installDevDependencies' );
 
 let defaultJsProcessors = [ 'react' ];
-let defaultStyleProcessors = [ 'postcss' ];
+let defaultStyleProcessors = [ 'sasslike' ];
 let defaultWebpackVersion = '4';
 
 function parseListArgv( val ) {
