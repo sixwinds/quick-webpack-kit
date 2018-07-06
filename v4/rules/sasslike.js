@@ -2,6 +2,7 @@ exports.devDependencies = [
   'style-loader',
   'css-loader',
   'postcss-loader',
+  'postcss-import',
   'precss',
   'autoprefixer',
   'file-loader'
